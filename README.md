@@ -1,6 +1,19 @@
 # EMERALD UTILITY 3.0
 
 
+
+# What's New!
+
+New Commands!!
+
+/kick - Kick a user from the server
+/ban - Ban a user from the server
+/unban - Unban a user from the server
+/mute - Mute a user in the server
+/unmute - Unmute a user in the server
+/warn - Warn a user for inappropriate behavior
+
+
 # Command's Added!
 
 /balance - Check your balance
@@ -27,6 +40,12 @@
 /deposit - Deposit money into your account
 /withdraw - Withdraw money from your account
 /checkdeposit - Check your deposit account balance
+/kick - Kick a user from the server
+/ban - Ban a user from the server
+/unban - Unban a user from the server
+/mute - Mute a user in the server
+/unmute - Unmute a user in the server
+/warn - Warn a user for inappropriate behavior
 
 
 # Bug's / Fixes
