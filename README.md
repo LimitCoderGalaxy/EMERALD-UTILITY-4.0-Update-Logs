@@ -1,4 +1,4 @@
-# EMERALD UTILITY 3.0
+# EMERALD UTILITY 4.0
 
 
 
@@ -6,12 +6,12 @@
 
 New Commands!!
 
-/kick - Kick a user from the server
-/ban - Ban a user from the server
-/unban - Unban a user from the server
-/mute - Mute a user in the server
-/unmute - Unmute a user in the server
-/warn - Warn a user for inappropriate behavior
+New Code
+New DataBase
+New Save Commands
+New Level Up's - Buggy rn
+New Whole Program!
+And More.......
 
 
 # Command's Added!
