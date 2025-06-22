@@ -4,15 +4,14 @@
 
 # What's New!
 
-New Commands!!
-
-New Code
-New DataBase
-New Save Commands
-New Level Up's - Buggy rn
-New Whole Program!
-And More.......
-
+Revamp Bot Code
+Fix Some Data Bugs
+Ping Command Updated
+New Level Code In Place
+Fix level update
+Updated Discord.js to V14
+Setup Online Always Mode!
+Plus More Updates To Old Code Lines! And More Cleaner
 
 # Command's Added!
 
