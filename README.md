@@ -4,14 +4,12 @@
 
 # What's New!
 
-Revamp Bot Code
-Fix Some Data Bugs
-Ping Command Updated
-New Level Code In Place
-Fix level update
-Updated Discord.js to V14
-Setup Online Always Mode!
-Plus More Updates To Old Code Lines! And More Cleaner
+/ping update
+memory usages updated
+dms enable commands
+/purge command added for mods
+Secruity Update Patch Echo V 2.0.4
+fix 30 bugs
 
 # Command's Added!
 
