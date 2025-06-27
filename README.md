@@ -15,7 +15,7 @@
 - Added level-up rewards: users now earn EchoBucks for leveling up, with special bonuses every 5 levels
 - Removed `/afk`, `/unafk`, `/backup`, and `/poll` commands and cleaned up help menu
 - Improved `/deposit` and `/withdraw` commands: support for "all", input validation, multi-currency, and privacy
-- Enhanced `/work` command: random jobs, cooldown, balance update, and privacy
+- Enhanced `/work` command: now randomly rewards one of your currencies (EchoBucks, gems, stardust, etc.) each time you work, with unique reward ranges and updated embed
 - Upgraded `/rob` and `/coinflip` commands: multi-currency, input validation, privacy, and better feedback
 - Upgraded `/serverinfo` command: more details and embed
 - Updated `/ping` command: added ephemeral option, dynamic user/time, and privacy support
