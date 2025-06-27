@@ -21,6 +21,7 @@
 - Updated `/ping` command: added ephemeral option, dynamic user/time, and privacy support
 - Updated `/say`, `/daily`, `/craft`, `/inventory`, `/roleinfo`, and `/8ball` commands: dynamic timestamp, user tag in footer, privacy improvements, and ephemeral replies
 - Removed `/poll` command and all references from help/documentation
+- Updated all ephemeral replies to use `flags: MessageFlags.Ephemeral` for Discord.js v14+ compatibility
 
 # Bug Fixes
 
