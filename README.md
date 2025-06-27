@@ -1,71 +1,33 @@
 # EMERALD UTILITY 4.0
 
 
+# Change Log
 
-# What's New!
+## v4.0.0 (2025-06-27)
+- Removed deprecated `/balance` command (use `/currency balance` instead)
+- Added multi-currency support and fixed balances data format
+- Improved `/currency` command (balance, convert, list)
+- Added DM support for many commands
+- Added global command cooldown and advanced logging
+- Fixed leaderboard and achievements bugs
+- Updated help menu to reflect current commands
+- Added progress bar and percentage to `/level` command
+- Added level-up rewards: users now earn EchoBucks for leveling up, with special bonuses every 5 levels
+- Removed `/afk`, `/unafk`, `/backup`, and `/poll` commands and cleaned up help menu
+- Improved `/deposit` and `/withdraw` commands: support for "all", input validation, multi-currency, and privacy
+- Enhanced `/work` command: random jobs, cooldown, balance update, and privacy
+- Upgraded `/rob` and `/coinflip` commands: multi-currency, input validation, privacy, and better feedback
+- Upgraded `/serverinfo` command: more details and embed
+- Updated `/ping` command: added ephemeral option, dynamic user/time, and privacy support
+- Updated `/say`, `/daily`, `/craft`, `/inventory`, `/roleinfo`, and `/8ball` commands: dynamic timestamp, user tag in footer, privacy improvements, and ephemeral replies
+- Removed `/poll` command and all references from help/documentation
 
-/ping update
-memory usages updated
-dms enable commands
-/purge command added for mods
-Secruity Update Patch Echo V 2.0.4
-fix 30 bugs
+# Bug Fixes
 
-# Command's Added!
-
-/balance - Check your balance
-/work - Work to earn coins
-/inventory - Check your inventory
-/shop - View items in the shop
-/buy - Buy an item from the shop
-/addmoney - Add money to a user's balance
-/removemoney - Remove money from a user's balance
-/level - Check your level and XP
-/rank - Check your rank
-/leaderboard - View the top 10 users by level
-/help - Show all available commands
-/uptime - Show the bot's uptime
-/ping - Show the bot's ping and latency
-/serverinfo - Show information about the server
-/userinfo - Show information about a user
-/giveaway - Start a giveaway
-/purge - Delete a specified number of messages
-/ticketpanel - Create a ticket panel
-/resetlevel - Reset your level and XP
-/say - Make the bot say something
-/rob - Rob another user
-/deposit - Deposit money into your account
-/withdraw - Withdraw money from your account
-/checkdeposit - Check your deposit account balance
-/kick - Kick a user from the server
-/ban - Ban a user from the server
-/unban - Unban a user from the server
-/mute - Mute a user in the server
-/unmute - Unmute a user in the server
-/warn - Warn a user for inappropriate behavior
-
-
-# Bug's / Fixes
-
-V.1.0.0
-
-- Fix Checkdeposit Command So It Doesn't Just Show NaN
-- Fix A Bug Where Say Command Shows Two Times And Doesn't Duplicate In Commands
-- Fix Deposit Command So It Doesn't Add Money To Your Balance
-- Fix Withdraw So You Don't Withdraw Money And It Keeps Adding You Money You Don't Even Have
-
-
-# Bug's That Will Be Fix
-
-- User For Balance Won't Work And It Only Shows You
-- Bots Client Being Glitchy
-- 
-
-
-# Future Update's
-
-- Enable App For Your Own Use Which Allows You To Add My App Where Ever You Go In Any Server It Will Just Be A Profie App
-- More Economy Update
-- More Command's
-- Moderation Update's
-- Bot Log's
+- Fixed ReferenceError and undefined/null errors in `achievements.js`
+- Fixed leaderboard bug with `.setDescription()`
+- Fixed data format mismatch in `balances.json` for multi-currency
+- Removed deprecated `fetchReply` and `ephemeral` usage
+- Fixed missing import and category logic in achievements
+- Fixed permission checks in `/purge` and `/roleinfo`
+- Fixed help menu to remove `/balance`, `/afk`, `/unafk`, `/backup`, and `/poll` and reflect new commands
