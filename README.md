@@ -1,7 +1,36 @@
 # EMERALD UTILITY 4.0
 
 
+## Features
+
+- Modern Discord bot for server management, economy, achievements, moderation, and more
+- Multi-currency support (coins, gems, stardust, crystals, plasma, nebula, quantum, vortex, aurora, cosmic)
+- Advanced logging, daily backups, and global command cooldowns
+- Modern ephemeral replies using `flags: 64` for privacy (Discord.js v14+)
+- Automatic data initialization for new members (levels, balances, inventory, achievements, todos, AFK)
+- Welcome message sent to a configurable channel when a new member joins
+
+
+
 # Change Log
+
+## v4.0.5 (2025-08-09)
+- Added automatic join message: new members are welcomed in the specified channel and all user data files are initialized on join
+- All ephemeral replies now use `flags: 64` (Discord.js v14+), fully removing deprecated `ephemeral` usage and warnings
+- General code cleanup and modernization for Discord.js v14+ compatibility
+
+
+## v4.0.4 (2025-07-06)
+- Upgraded to latest `discord.js` version for all features and security updates
+- Verified and updated `/say` command for full compatibility with new Discord.js enums and channel types
+- All moderation and utility commands now fully compatible with Discord.js v14+ and above
+- General dependency and compatibility maintenance
+
+## v4.0.3 (2025-07-06)
+- Replaced all deprecated `ephemeral: true/false` usage with `flags: 64` for Discord.js v14+ compatibility (fixes warning)
+- Updated `/say` command to use only `flags: 64` for ephemeral replies and admin feedback
+- Verified all moderation and utility commands for modern ephemeral usage
+- General compatibility and code cleanup for Discord.js v14+
 
 ## v4.0.2 (2025-06-27)
 - Modernized all moderation and protection commands: `/addlevel`, `/removelevel`, `/clear`, `/lockdown`, `/lockserver`, `/antiraid`, `/antispam`, `/automod`, `/joinfilter`, `/mentionprotect`, `/raidprotection`, `/raidmode`, `/audit`
@@ -36,6 +65,12 @@
 - Updated `/say`, `/daily`, `/craft`, `/inventory`, `/roleinfo`, and `/8ball` commands: dynamic timestamp, user tag in footer, privacy improvements, and ephemeral replies
 - Removed `/poll` command and all references from help/documentation
 - Updated all ephemeral replies to use `flags: MessageFlags.Ephemeral` for Discord.js v14+ compatibility
+
+# Discord.js v14+ Compatibility
+
+- All ephemeral replies now use `flags: 64` instead of `ephemeral: true/false` (required for Discord.js v14+)
+- All commands and event handlers updated to use Discord.js v14 enums and APIs
+- No deprecated warnings or usage remain
 
 # Bug Fixes
 
