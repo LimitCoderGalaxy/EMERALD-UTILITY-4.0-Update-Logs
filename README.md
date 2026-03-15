@@ -1,52 +1,80 @@
-EMERALD Release Notes
+# Emerald Bot v26.3
 
-Economy Update (v4.0.10 - RUBY)
-Economy expansion with banking, games, crime, and trades.
-Shop management commands and inventory use.
-Daily streak bonuses and tax controls.
-Embed refresh across all commands.
+A powerful Discord bot built with Discord.js v14, featuring economy, leveling, titles, and premium perks.
 
-v.4.0.10 Economy Update Part Two (RUBY)
-Banking: /bank, /deposit, /withdraw.
-Games: /coinbet, /slots, /roulette.
-Crime: /rob, /steal.
-Trading: /trade, /tradeaccept, /tradedecline.
-Shop admin: /shopadd, /shopremove.
-Utility: /transferall, /use, /give, /tax.
-Daily streak bonuses + bank balances.
+## 🚀 Major Update v26.3 (March 2026)
 
-v4.0.9 - RUBY
-Enhanced ping command with visual meters + system stats.
-Node.js 22.12.0 runtime for performance and security.
-discord.js 14.25.1 framework upgrade.
-Commands modernized for slash responses.
-System info: OS, CPU, memory, disk usage.
-UI polish with cleaner embeds + grouped fields.
+### ✨ New Features
+- **Titles System**: Unlock and equip 39 unique titles based on achievements
+- **Premium/VIP System**: Exclusive perks for premium users (2x XP, 1.5x currency, VIP title)
+- **Enhanced UI**: 2026-themed interface with modern commands and embeds
+- **Expanded Economy**: Multiple currencies, banking, trading, and gambling
+- **Advanced Leveling**: XP system with badges and title unlocks
 
-v4.0.8
-Command stability pass and bug fixes.
-Latency display improvements.
-Embed cleanup for better readability.
+### 🎯 Key Features
+- **Economy System**: Work, beg, daily rewards, gambling, trading
+- **Leveling & XP**: Gain XP from messages, unlock levels and titles
+- **Titles & Badges**: 39+ titles and badges for achievements
+- **Premium Perks**: VIP status with multipliers and exclusive features
+- **Moderation Tools**: Ban, kick, timeout, warnings, notes
+- **Fun Commands**: 8ball, coinflip, dice, roulette, slots
+- **Utility**: Server info, user profiles, leaderboards
 
+### 💎 Premium Features
+- 2x XP multiplier from messages
+- 1.5x currency multiplier from all activities
+- Exclusive VIP title
+- Priority support
+- Custom profile options
+- Early access to updates
 
-EMERALD v4.0.0 - v4.0.8
+### 🛠️ Commands Overview
+- **Economy**: `/work`, `/beg`, `/daily`, `/balance`, `/shop`
+- **Gambling**: `/coinbet`, `/slots`, `/roulette`, `/coinflip`
+- **Social**: `/leaderboard`, `/userinfo`, `/profile`
+- **Titles**: `/titles`, `/title`, `/buyvip`
+- **Moderation**: `/ban`, `/kick`, `/warn`, `/timeout`
+- **Utility**: `/help`, `/botinfo`, `/premium`
 
-Early v4 beta and stabilization era.
+### 📋 Requirements
+- Node.js >= 22.12.0
+- Discord.js v14.25.1
+- dotenv for environment variables
 
-v4.0.0 (Beta) - (STONE)
-Initial v4 beta launch.
-Early economy foundation with starter commands like /work.
-Core command framework bootstrapped.
+### 🔧 Setup
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Create `.env` file with:
+   ```
+   DISCORD_TOKEN=your_bot_token
+   CLIENT_ID=your_client_id
+   GUILD_ID=your_guild_id (optional)
+   ```
+4. Deploy commands: `npm run deploy`
+5. Start the bot: `npm start`
 
-v4.0.1 - v4.0.6 (GRANITE)
-Incremental command additions and tuning.
-Economy polish and balance adjustments.
-General stability and bug fixes.
+### 🎮 How to Play
+1. Send messages to gain XP and level up
+2. Use `/work` and `/beg` to earn Emeralds
+3. Claim daily rewards with `/daily`
+4. Unlock titles and badges through achievements
+5. Purchase VIP status for premium perks
 
-v4.0.7 - v4.0.8 (MARBLE)
-Refined command output and reliability.
-Prep work for the RUBY modernization.
-Small UI cleanups and performance tweaks.
+### 📈 Version History
+- **v26.3 "SAPPHIRE"** (March 2026): Major update with titles system, premium/VIP perks, enhanced UI, 2x XP and 1.5x currency multipliers for VIP users
+- **v4.1.0 "EMERALD"** (2025): Added advanced economy features, multiple currencies, banking system, trading, and gambling commands
+- **v4.0.0 "DIAMOND"** (2025): Complete rewrite with Discord.js v14, slash commands, leveling system, badges, and moderation tools
+- **v3.5.0 "RUBY"** (2024): Introduced fun commands (8ball, coinflip, dice), user profiles, and server management features
+- **v3.0.0 "AMETHYST"** (2024): Added economy basics (work, beg, daily), basic moderation, and utility commands
+- **v2.0.0 "TOPAZ"** (2023): Migrated to Discord.js v13, improved stability and performance
+- **v1.0.0 "QUARTZ"** (2023): Initial release with basic commands and Discord integration
 
+### 🤝 Contributing
+Feel free to contribute features, bug fixes, or suggestions!
 
+### 📜 License
+This project is open-source. Use at your own risk.
 
+---
+
+*Emerald Bot - Level up your Discord experience! 💚*
