@@ -1,7 +1,5 @@
 # Emerald Bot v26.3
 
-A powerful Discord bot built with Discord.js v14, featuring economy, leveling, titles, and premium perks.
-
 ## 🚀 Major Update v26.3 (March 2026)
 
 ### ✨ New Features
