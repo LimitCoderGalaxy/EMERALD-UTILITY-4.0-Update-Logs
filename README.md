@@ -1,51 +1,17 @@
-# Emerald Bot v26.3.1
+# Emerald Bot v26.3.2
 
-## Highlights
-- 75 active slash commands
-- Full economy loop: work, daily/weekly, gambling, banking, trading
-- XP, badges, titles, and VIP multipliers
-- Moderation and server management toolkit
-- GitHub-powered `/updates` command for live changelog previews
-- Performance optimizations for cache cleanup, cooldown handling, and stable runtime behavior
+Quantum Core V1.0.0
 
-## Core Systems
-- Economy: currencies, balances, shop, inventory, streaks, payouts
-- Leveling: message XP, level progression, title unlocks
-- Badges/Titles: achievement-based unlock paths
-- Moderation: warnings, notes, timeout/ban/kick, cleanup commands
-- Utility: profile, leaderboards, reminders, server insight, reporting
+Quantum Core is the intelligence engine behind Emerald, built to keep the bot fast, stable, and transparent. It powers real-time diagnostics, cooldown analytics, and system integrity checks so every command runs smoother and the community gets a more reliable experience.
 
-## Featured Commands
-- Economy: `/work`, `/beg`, `/daily`, `/weekly`, `/balance`, `/shop`, `/deposit`, `/withdraw`
-- Gambling: `/coinbet`, `/coinflip`, `/dice`, `/slots`, `/roulette`, `/rob`, `/steal`
-- Social: `/profile`, `/userinfo`, `/leaderboard`, `/leaderboardlevel`, `/titles`, `/title`
-- Moderation: `/warn`, `/warnings`, `/clearwarnings`, `/note`, `/notes`, `/clearnotes`, `/timeout`, `/ban`, `/kick`, `/purge`
-- Utility: `/help`, `/botinfo`, `/serverinfo`, `/ping`, `/report`, `/remind`, `/updates`
-- Fun/Community: `/fun`, `/rps`, `/poll`, `/giveaway`, `/ticket`, `/rules`, `/weather`
+Quantum Intelligence is the decision layer inside Quantum Core. It turns raw runtime data into actionable insight, so the bot can monitor itself, detect issues early, and respond more intelligently instead of just executing commands blindly. In practical terms, it powers smarter diagnostics, healthier uptime, and more adaptive behavior across any server.
 
-## /updates Command
-`/updates` pulls update notes from:
-1. `UPDATELOG.md`
-2. `CHANGELOG.md`
-3. `UPDATES.md`
-4. `README.md`
+It handles:
+Core identity and versioning
+Live health diagnostics (latency, memory, uptime)
+Cooldown and runtime analytics
+Integrity checks for config and environment consistency
 
-If no log file is found, it shows recent commits from:
-https://github.com/LimitCoderGalaxy/EMERALD-UTILITY-4.0-Update-Logs
+Its The Newly Power Engine 
 
-## Session Update (March 15, 2026)
-- Configured report routing with `REPORT_CHANNEL_ID` in `.env`.
-- Upgraded welcome flow with a modern embed (avatar, member count, timestamp, and onboarding field).
-- Updated `/work` to post publicly so everyone can see earnings activity.
-- Added `/updates` command to pull changelog content directly from your GitHub update-log repo.
-- Redeployed slash commands and restarted the bot after command set cleanup.
-- Added runtime optimization work (command load checks, cache/cooldown cleanup loop, and global error handlers).
-- Refreshed this README to reflect current setup and command guidance.
-
-## Requirements
-- Node.js >= 22.12.0
-- discord.js ^14.25.1
-- dotenv ^17.3.1
-
-## Version
-- Current: v26.3.1 "SAPPHIRE" (March 2026)
+Thank You All For Your Support!
